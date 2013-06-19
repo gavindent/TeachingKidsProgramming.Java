@@ -20,9 +20,13 @@ public class Houses
   {
     Tortoise.setPenColor(Color.lightGray);
     Tortoise.move(height);
+    // flatRoof();
+    // AmittaisRoof
+    Tortoise.turn(30);
+    Tortoise.move(10);
     Tortoise.turn(90);
-    Tortoise.move(30);
-    Tortoise.turn(90);
+    Tortoise.move(10);
+    Tortoise.turn(60);
     Tortoise.move(height);
     Tortoise.turn(-90);
     Tortoise.move(20);
