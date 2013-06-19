@@ -6,12 +6,18 @@ public class HousesQuiz extends org.teachingkidsprogramming.recipes.quizzes.grad
 {
   public void question1()
   {
-    //  The current length is 7
+    length = 7;
   }
   //
   //      Question2
   //      Create a method called medium
   //       that sets the current length to 21
+  @Override
+  public void medium()
+  {
+    // TODO Auto-generated method stub
+    super.medium();
+  }
   //
   //
   //      Question3
