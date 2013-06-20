@@ -8,7 +8,7 @@ public class Houses
 {
   public static void main(String[] args)
   {
-    Tortoise.setSpeed(1);
+    Tortoise.setSpeed(10);
     Tortoise.setX(200);
     int height = 40;
     drawHouse(height);
@@ -32,5 +32,8 @@ public class Houses
     Tortoise.move(10);
     Tortoise.turn(-90);
     Tortoise.move(height);
+    Tortoise.turn(-90);
+    Tortoise.move(30);
+    Tortoise.turn(-90);
   }
 }
